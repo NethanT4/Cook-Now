@@ -1,1 +1,8 @@
 # Cook-Now
+
+virtualenv django-venv
+.\django-venv\Scripts\Activate.ps1
+pip install django
+pipenv shell
+python -m pip install requests 
+python3 manage.py runserver
